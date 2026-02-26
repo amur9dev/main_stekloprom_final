@@ -87,7 +87,7 @@
                 <li class="header__menuItem header__menuItem--hasDropdown" data-dropdown>
                   <a href="catalog.html" class="header__menuLink">
                     Каталог
-                    <span class="icon-placeholder icon-placeholder--sm header__menuLinkIcon"></span>
+                    <img src="/images/icons/header-check.svg" alt="" class="header__menuLinkIcon header__menuLinkArrow" width="8" height="4" aria-hidden="true" />
                   </a>
                   <ul class="header__dropdown">
                     <li class="header__dropdownItem"><a href="catalog/odnokamernye.html" class="header__dropdownLink">Однокамерные</a></li>
@@ -373,78 +373,92 @@
         </section>
       </main>
 
-      <footer class="footer">
+            <footer class="footer">
         <div class="footer__main">
           <div class="footer__container">
             <div class="footer__grid">
               <div class="footer__brand">
-                <a href="index.html" class="footer__logo">
+                <a href="/index.html" class="footer__logo">
                   <img src="/images/logo_footer.png" alt="Стеклопром" class="footer__logoImage" />
                   <span class="footer__logoText">СТЕКЛОПРОМ</span>
                 </a>
-                <p class="footer__description">
-                  Производство и установка стеклопакетов в Ростове-на-Дону. Работаем с 2008 года.
-                  Гарантия 5 лет. Изготовление за 1 час.
-                </p>
+                <p class="footer__description">Производство качественных стеклопакетов в Ростове-на-Дону с 2008 года.</p>
+              </div>
+
+              <div class="footer__contactsBlock">
                 <ul class="footer__contacts">
                   <li class="footer__contactItem">
-                    <div class="footer__contactIcon"><span class="icon-placeholder icon-placeholder--xs"></span></div>
-                    <a href="tel:+78631234567" class="footer__contactLink">+7 (863) 123-45-67</a>
+                    <img src="/images/footer/phone.svg" alt="" class="footer__contactIconImage" width="28" height="28" aria-hidden="true" />
+                    <div class="footer__contactValue footer__contactValue--stacked">
+                      <a href="tel:+78631234567" class="footer__contactLink">+7 (863) 123-45-67</a>
+                      <a href="tel:+78637654321" class="footer__contactLink">+7 (863) 765-43-21</a>
+                    </div>
                   </li>
                   <li class="footer__contactItem">
-                    <div class="footer__contactIcon"><span class="icon-placeholder icon-placeholder--xs"></span></div>
-                    <a href="mailto:info@stekloprom-rostov.ru" class="footer__contactLink">info@stekloprom-rostov.ru</a>
+                    <img src="/images/footer/mail.svg" alt="" class="footer__contactIconImage" width="28" height="28" aria-hidden="true" />
+                    <div class="footer__contactValue">
+                      <a href="mailto:info@stekloprom-rostov.ru" class="footer__contactLink">info@stekloprom-rostov.ru</a>
+                    </div>
                   </li>
                   <li class="footer__contactItem">
-                    <div class="footer__contactIcon"><span class="icon-placeholder icon-placeholder--xs"></span></div>
-                    <span class="footer__contactText">г. Ростов-на-Дону, ул. Промышленная, 15</span>
+                    <img src="/images/footer/map-pin.svg" alt="" class="footer__contactIconImage" width="28" height="28" aria-hidden="true" />
+                    <div class="footer__contactValue">
+                      <span class="footer__contactText">г. Ростов-на-Дону, ул.</span>
+                    </div>
                   </li>
                   <li class="footer__contactItem">
-                    <div class="footer__contactIcon"><span class="icon-placeholder icon-placeholder--xs"></span></div>
-                    <span class="footer__contactText">Пн-Пт: 8:00-18:00, Сб: 9:00-15:00</span>
+                    <img src="/images/footer/clock.svg" alt="" class="footer__contactIconImage" width="28" height="28" aria-hidden="true" />
+                    <div class="footer__contactValue footer__contactValue--stacked">
+                      <span class="footer__contactText">Пн-Пт: 8:00-17:00</span>
+                      <span class="footer__contactText">Сб: 9:00-13:00</span>
+                    </div>
                   </li>
                 </ul>
+
                 <div class="footer__social">
                   <a href="https://vk.com/stekloprom_rostov" target="_blank" rel="noopener noreferrer" class="footer__socialLink" aria-label="ВКонтакте">
-                    <span class="icon-placeholder icon-placeholder--sm icon-placeholder--white"></span>
-                  </a>
-                  <a href="https://t.me/stekloprom" target="_blank" rel="noopener noreferrer" class="footer__socialLink" aria-label="Telegram">
-                    <span class="icon-placeholder icon-placeholder--sm icon-placeholder--white"></span>
+                    <img src="/images/footer/social/vk.svg" alt="" class="footer__socialIcon" width="36" height="36" aria-hidden="true" />
                   </a>
                   <a href="https://wa.me/78631234567" target="_blank" rel="noopener noreferrer" class="footer__socialLink" aria-label="WhatsApp">
-                    <span class="icon-placeholder icon-placeholder--sm icon-placeholder--white"></span>
+                    <img src="/images/footer/social/whatsapp.svg" alt="" class="footer__socialIcon" width="36" height="36" aria-hidden="true" />
+                  </a>
+                  <a href="https://t.me/stekloprom" target="_blank" rel="noopener noreferrer" class="footer__socialLink" aria-label="Telegram">
+                    <img src="/images/footer/social/telegram.svg" alt="" class="footer__socialIcon" width="36" height="36" aria-hidden="true" />
+                  </a>
+                  <a href="https://dzen.ru" target="_blank" rel="noopener noreferrer" class="footer__socialLink" aria-label="Дзен">
+                    <img src="/images/footer/social/dzen.svg" alt="" class="footer__socialIcon" width="36" height="36" aria-hidden="true" />
                   </a>
                 </div>
               </div>
 
-              <nav class="footer__nav" aria-label="Каталог">
-                <h3 class="footer__navTitle ds-heading ds-heading--l3 ds-heading--label">Каталог</h3>
-                <ul class="footer__navList">
-                  <li class="footer__navItem"><a href="catalog/odnokamernye.html" class="footer__navLink">Однокамерные</a></li>
-                  <li class="footer__navItem"><a href="catalog/dvuhkamernye.html" class="footer__navLink">Двухкамерные</a></li>
-                  <li class="footer__navItem"><a href="catalog/energosberegayushchie.html" class="footer__navLink">Энергосберегающие</a></li>
-                  <li class="footer__navItem"><a href="catalog/shumoizolyatsionnye.html" class="footer__navLink">Шумоизоляционные</a></li>
-                  <li class="footer__navItem"><a href="catalog/multifunktsionalnye.html" class="footer__navLink">Мультифункциональные</a></li>
-                  <li class="footer__navItem"><a href="catalog/solntsezashchitnye.html" class="footer__navLink">Солнцезащитные</a></li>
-                  <li class="footer__navItem"><a href="catalog/udaroprochnye.html" class="footer__navLink">Ударопрочные</a></li>
-                  <li class="footer__navItem"><a href="catalog/tonirovannye.html" class="footer__navLink">Тонированные</a></li>
-                  <li class="footer__navItem"><a href="catalog/zakalennye.html" class="footer__navLink">С закаленным стеклом</a></li>
-                  <li class="footer__navItem"><a href="catalog/tripleks.html" class="footer__navLink">С триплексом</a></li>
-                  <li class="footer__navItem"><a href="catalog/teplosberegayushchie.html" class="footer__navLink">Теплосберегающие</a></li>
-                  <li class="footer__navItem"><a href="catalog/zerkalnye.html" class="footer__navLink">Зеркальные</a></li>
-                  <li class="footer__navItem"><a href="catalog/nestandartnye.html" class="footer__navLink">Нестандартные</a></li>
-                  <li class="footer__navItem"><a href="catalog/gazonapolnennye.html" class="footer__navLink">С газонаполнением</a></li>
+              <nav class="footer__nav footer__nav--catalog" aria-label="Каталог">
+                <h3 class="footer__navTitle">Каталог</h3>
+                <ul class="footer__navList footer__navList--catalog">
+                  <li class="footer__navItem"><a href="/catalog/odnokamernye.html" class="footer__navLink">Однокамерные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/dvuhkamernye.html" class="footer__navLink">Двухкамерные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/energosberegayushchie.html" class="footer__navLink">Энергосберегающие</a></li>
+                  <li class="footer__navItem"><a href="/catalog/shumoizolyatsionnye.html" class="footer__navLink">Шумоизоляционные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/multifunktsionalnye.html" class="footer__navLink">Мультифункциональные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/solntsezashchitnye.html" class="footer__navLink">Солнцезащитные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/udaroprochnye.html" class="footer__navLink">Ударопрочные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/tonirovannye.html" class="footer__navLink">Тонированные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/zakalennye.html" class="footer__navLink">С закаленным стеклом</a></li>
+                  <li class="footer__navItem"><a href="/catalog/tripleks.html" class="footer__navLink">С триплексом</a></li>
+                  <li class="footer__navItem"><a href="/catalog/teplosberegayushchie.html" class="footer__navLink">Теплосберегающие</a></li>
+                  <li class="footer__navItem"><a href="/catalog/zerkalnye.html" class="footer__navLink">Зеркальные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/nestandartnye.html" class="footer__navLink">Нестандартные</a></li>
+                  <li class="footer__navItem"><a href="/catalog/gazonapolnennye.html" class="footer__navLink">С газонаполнением</a></li>
                 </ul>
               </nav>
 
-              <nav class="footer__nav" aria-label="Компания">
-                <h3 class="footer__navTitle ds-heading ds-heading--l3 ds-heading--label">Компания</h3>
-                <ul class="footer__navList">
-                  <li class="footer__navItem"><a href="about.html" class="footer__navLink">О компании</a></li>
-                  <li class="footer__navItem"><a href="cases.html" class="footer__navLink">Наши работы</a></li>
-                  <li class="footer__navItem"><a href="blog.html" class="footer__navLink">Блог</a></li>
-                  <li class="footer__navItem"><a href="services.html" class="footer__navLink">Услуги</a></li>
-                  <li class="footer__navItem"><a href="contacts.html" class="footer__navLink">Контакты</a></li>
+              <nav class="footer__nav footer__nav--company" aria-label="Компания">
+                <h3 class="footer__navTitle">Компания</h3>
+                <ul class="footer__navList footer__navList--company">
+                  <li class="footer__navItem"><a href="/about.html" class="footer__navLink">О компании</a></li>
+                  <li class="footer__navItem"><a href="/cases.html" class="footer__navLink">Наши работы</a></li>
+                  <li class="footer__navItem"><a href="/blog.html" class="footer__navLink">Блог</a></li>
+                  <li class="footer__navItem"><a href="/services.html" class="footer__navLink">Услуги</a></li>
+                  <li class="footer__navItem"><a href="/contacts.html" class="footer__navLink">Контакты</a></li>
                 </ul>
               </nav>
             </div>
@@ -455,7 +469,7 @@
           <div class="footer__bottomContainer">
             <p class="footer__copyright">© <span data-current-year></span> Стеклопром. Все права защищены.</p>
             <div class="footer__legal">
-              <a href="privacy.html" class="footer__legalLink">Политика конфиденциальности</a>
+              <a href="/privacy.html" class="footer__legalLink">Политика конфиденциальности</a>
             </div>
           </div>
         </div>
